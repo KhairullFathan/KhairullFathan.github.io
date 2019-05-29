@@ -1,0 +1,18 @@
+@font-face	{
+	font-family : "Viga";
+	src 		: url('../font/Viga/Viga-Regular.ttf') format('truetype');
+}
+@font-face	{
+	font-family : "Montserrat Bold";
+	src 		: url('../font/Montserrat/Montserrat-Bold.ttf') format('truetype');
+}
+@font-face	{
+	font-family : "Montserrat Medium";
+	src 		: url('../font/Montserrat/Montserrat-Medium.ttf') format('truetype');
+}
+@font-face{
+	font-family : "Righteous";
+	src 		: url('../font/Righteous/Righteous-Regular.ttf') format('truetype');
+}
+.font-viga {font-family: 'Viga', arial;}.font-montserrat-bold {font-family: 'Montserrat Bold', arial;}.font-righteous{font-family: 'Righteous', arial;}.font-montserrat-medium {font-family: 'Montserrat Medium', arial;}
+

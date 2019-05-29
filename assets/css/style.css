@@ -1,0 +1,261 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #ebeff6;
+}
+/*style text*/
+.text-custom-1{
+	color: #2e364f; 
+}
+.text-custom-2{
+	color: #646bd9;
+}
+.text-custom-3{
+	color: #fff;
+}
+/* akhir style text*/
+.container-utama{
+	border: none;
+	box-shadow: 0px 0px 5px 1px rgba(46,54,79,.2);
+	position: relative;
+	top:	50px;
+	left: 0px;
+	bottom: 50px;
+}
+/*style global*/
+.title{
+	text-transform: uppercase;
+}
+/*akhir style global*/
+/*style topbar*/
+.container-topbar{
+	width: 100%;
+	height: 45px;
+}
+.nav, h5.logo{
+	text-transform: uppercase;
+}
+h5.logo{
+	font-weight: 900;
+}
+.nav-link:hover::after{
+	content: "";
+	margin: auto;
+	width:60%;
+	height: 2px;
+	display: block;
+	background-color: #2e364f;
+}
+.nav-link:hover{
+	color: #2e364f;
+}
+/*akhir style topbar*/
+/*style profil*/
+.container-profil{
+	position: static;
+	margin-top: 85px;
+}
+.content-profil{
+	position: relative;
+	z-index: 1;
+}
+.sub-title-1{
+	line-height: 85px !important;
+	font-weight: bold;
+}
+.sub-title-2{
+	font-size: 20px;
+}
+p.sub-title-2 .special{
+	font-weight: bold;
+}
+.content-vektor-1 img{
+	width: 60%;
+	position: absolute;
+	/*right: 300px;*/
+	z-index: 0;
+	bottom: 40px;
+}
+.content-vektor-1::after{
+	content: "";
+	position: absolute;
+	/*right: 300px;*/
+	top:-35px;
+	width: 100%;
+	height: 100%;
+	display: block;
+	background-color: #fff;
+	opacity: .9;
+}
+/*akhir style profil*/
+/*style pendidikan*/
+.container-pendidikan{
+	margin-top: 100px;
+	background-color: #646bd9;
+	padding: 10px;
+	border-radius: 8px;
+}
+.title-pendidikan::after{
+	content: "";
+	margin: auto;
+	width:28%;
+	height: 3px;
+	display: block;
+	background-color: #fff;
+	text-transform: uppercase;
+}
+.content-pendidikan{
+	margin-top: 50px;
+	position: relative;
+}
+.content-vektor-2 img{
+	width: 28%;
+	position: absolute;
+	top:	-45px;
+	left: 200px;
+}
+.content-vektor-2::after{
+	content: "";
+	position: absolute;
+	/*right: 300px;*/
+	top:-35px;
+	left: 200px;
+	width: 28%;
+	height: 110%;
+	display: block;
+	background-color: #646bd9;
+	opacity: .8;
+}
+/*akhir style pendidikan*/
+/*style contaier schedule*/
+.container-schedule{
+	margin-top: 100px;
+}
+.title-schedule{
+	text-transform: uppercase;
+}
+.title-schedule::after{
+	content: "";
+	margin: auto;
+	width:20%;
+	height: 3px;
+	display: block;
+	background-color: #2e364f;
+	text-transform: uppercase;
+}
+.content-jadwal{
+	margin-top: 50px;
+	position: relative;
+	left: 30px;
+}
+.content-jadwal table{
+	position: relative;
+	z-index: 1;
+}
+.content-vektor-3 img{
+	width: 70%;
+	position: absolute;
+	top:	30px;
+	left: 0;
+	z-index: 0;
+}
+.content-vektor-3::after{
+	content: ""; 
+	position: absolute;
+	top: -30px;
+	left: -30px;
+	width: 100%;
+	height: 110%;
+	display: block;
+	background-color: #fff;
+	opacity: .9;
+}
+/*akhir style container schedule*/
+/*style container activity*/
+.container-activity{
+	margin-top: 100px;
+	background-color: #646bd9;
+	padding: 10px;
+	border-radius: 8px;
+}
+.title-activity{
+	text-transform: uppercase;
+}
+.title-activity::after{
+	content: "";
+	margin: auto;
+	width: 25%;
+	height: 3px;
+	display: block;
+	background-color: #fff;
+	text-transform: uppercase;
+}
+.content-activity{
+	margin-top: 50px;
+}
+.activity-code img{
+	width: 25%;
+}
+.activity-code::after{
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 10;
+	width: 70%;
+	height: 100%;
+	background-color: #646bd9;
+	opacity: .7;
+}
+.activity-code h5{
+	position: relative;
+	z-index: 1;
+}
+.activity-learn img{
+	width: 45%;
+}
+.activity-learn::after{
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 10;
+	width: 70%;
+	height: 100%;
+	background-color: #646bd9;
+	opacity: .7;
+}
+.activity-learn h5{
+	position: relative;
+	z-index: 1;
+}
+.activity-sport img{
+	width: 50%;
+}
+.activity-sport::after{
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 10;
+	width: 70%;
+	height: 100%;
+	background-color: #646bd9;
+	opacity: .7;
+}
+.activity-sport h5{
+	position: relative;
+	z-index: 1;
+}
+/*akhir stylr container activity*/
+/*footer*/
+.footer{
+	position: relative;
+	top: 30px;
+}
+.footer a{
+	color: #2e369f;
+}
+/*akhir footer*/
