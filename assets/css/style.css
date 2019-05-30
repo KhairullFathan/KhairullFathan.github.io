@@ -250,6 +250,37 @@ p.sub-title-2 .special{
 	z-index: 1;
 }
 /*akhir stylr container activity*/
+/*style container contact*/
+.container-contact{
+	margin-top: 100px;
+}
+.title-contact{
+	text-transform: uppercase;
+}
+.title-contact::after{
+	content: "";
+	margin: auto;
+	width: 22%;
+	height: 3px;
+	display: block;
+	background-color: #2e364f;
+	text-transform: uppercase;
+}
+.content-contact{
+	margin-top: 50px;
+}
+.btn-custom{
+	background-color: #2e364f;
+	border-color: #2e364f;
+	color: #fff;
+}
+.btn-custom:hover{
+	background-color: #fff;
+	border-color: #2e364f;
+	color: #2e364f;
+}
+
+/*akhir style contact*/
 /*footer*/
 .footer{
 	position: relative;
@@ -259,3 +290,31 @@ p.sub-title-2 .special{
 	color: #2e369f;
 }
 /*akhir footer*/
+/*style up*/
+a.up{
+	color: #fff;
+}
+.content-up{
+	text-align: center;
+	line-height: 45px;
+	position: fixed;
+	background-color: #2e364f;
+	border-color: #2e364f;
+	border-radius: 7%;
+	width: 4%;
+	height: 45px;
+	right: 10px;
+	bottom: 10px;
+	opacity:  .6;
+}
+/*.content-up::after{
+	content: "";
+	position: fixed;
+	right: 10px;
+	bottom: 10px;
+	width: 4%;
+	height: 45px;
+	display: block;
+	background-color: #2e364f;
+}*/
+/*akhir style up*/
