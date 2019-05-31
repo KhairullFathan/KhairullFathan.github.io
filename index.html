@@ -8,6 +8,7 @@
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
 	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/mobile-style.css">
 	<link rel="stylesheet" href="assets/css/web-font.css">
 	<!-- fontawesome -->
 	<link rel="stylesheet" type="text/css" href="assets/fontawesome/css/all.css">
@@ -24,7 +25,7 @@
 					<div class="container-topbar">
 						<h5 class="float-left font-viga text-custom-1 logo">Khairul<br>Fathan</h5>
 						<ul class="nav float-right" id="navbar">
-							<li class="nav-item ">
+							<li class="nav-item">
 								<a href="#profile" class="nav-link font-viga text-center text-custom-2 page-scroll">
 									<i class="fas fa-user"></i>
 									<span>Profile</span>
@@ -61,7 +62,7 @@
 					<section id="profile">
 						<div class="container-profil">
 							<div class="row">
-								<div class="col-7">
+								<div class="col-md-7 col-sm-12">
 									<div class="content-profil">
 										<h1 class="display-4 font-montserrat-bold text-custom-1 title">Khairul Fathan</h1>
 										<h2 class="display-2 font-righteous text-custom-2 sub-title-1">Sistem Informasi</h2>
@@ -92,7 +93,7 @@
 								<div class="content-vektor-2">
 									<img src="assets/img/vektor-2.png">
 								</div>
-								<div class="col-7">
+								<div class="col-md-7 col-sm-12">
 									<div class="pendidikan">
 										<h5 class="mb-0 text-custom-3 font-montserrat-bold">SDN No. 85 Kota Tengah</h5>
 										<div class="sub-pendidikan">
@@ -132,8 +133,8 @@
 										<span>Schedule</span>
 									</h3>
 									<div class="row content-jadwal">
-										<div class="col-8">
-											<table class="table table-hover table-bordered">
+										<div class="col-md-8 col-sm-12">
+											<table class="table table-hover table-bordered table-1">
 												<thead>
 													<tr>
 														<th scope="col">#</th>
@@ -170,6 +171,60 @@
 														<th scope="row">5</th>
 														<td>Jum'at</td>
 														<td colspan="6">Jaringan Komputer</td>
+													</tr>
+												</tbody>
+											</table>
+											<table class="table table-2 table-bordered">
+												<thead>
+													<tr>
+														<th scope="col">Hari</th>
+														<th scope="col">Mata Kuliah</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<th scope="row">Senin</th>
+														<td>
+															<ul class="list-group list-group-flush">
+																<li class="list-group-item">Bahasa Inggris</li>
+																<li class="list-group-item">Al Islam & Kemuhammadiyaan</li>
+															</ul>
+														</td>
+													</tr>
+													<tr>
+														<th scope="row">Selasa</th>
+														<td>
+															<ul class="list-group list-group-flush">
+																<li class="list-group-item">Konsep Sistem Informasi</li>
+															</ul>
+														</td>
+													</tr>
+													<tr>
+														<th scope="row">Rabu</th>
+														<td>
+															<ul class="list-group list-group-flush">
+																<li class="list-group-item">Matematika Diskrit</li>
+																<li class="list-group-item">Tekonologi WEB</li>
+															</ul>
+														</td>
+													</tr>
+													<tr>
+														<th scope="row">Kamis</th>
+														<td>
+															<ul class="list-group list-group-flush">
+																<li class="list-group-item">Basis Data</li>
+																<li class="list-group-item">Filsafat Ilmu</li>
+																<li class="list-group-item">Jaringan Komputer</li>
+															</ul>
+														</td>
+													</tr>
+													<tr>
+														<th scope="row">Jum'at</th>
+														<td>
+															<ul class="list-group list-group-flush">
+																<li class="list-group-item">Jaringan Komputer</li>
+															</ul>
+														</td>
 													</tr>
 												</tbody>
 											</table>
@@ -228,7 +283,7 @@
 							</div>
 							<form>
 								<div class="row content-contact">
-									<div class="col-7">
+									<div class="col-md-7 col-sm-12">
 										<div class="form-group">
 											<label for="email">Email</label>
 											<input type="email" name="email" id="email" class="form-control" autocomplete="off">
@@ -242,7 +297,7 @@
 											<input type="nope" name="nope" id="nope" class="form-control" autocomplete="off">
 										</div>
 									</div>
-									<div class="col-5">
+									<div class="col-md-5 col-sm-12">
 										<div class="form-group">
 											<label for="pesan">Pesan</label>
 											<textarea name="pesan" id="pesan" rows="8" class="form-control"></textarea>
