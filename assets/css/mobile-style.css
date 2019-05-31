@@ -1,4 +1,4 @@
-@media (max-width: 575.98px) { 
+@media (min-width: 345px) and (max-width: 461px) { 
 
 	.container{
 		margin: auto !important;
@@ -44,6 +44,115 @@
 	/*jadwal*/
 	.container-schedule{
 		margin-top: 50px;
+	}
+	.title-schedule::after{
+		width: 90%;
+	}
+	.content-vektor-3{
+		display: none;
+	}
+	.content-jadwal{
+		text-align: center;
+		position: static;
+		margin-top: 20px;
+	}
+	.content-jadwal .table-1{
+		/*width: 100%;*/
+		display: none;
+	}
+	.content-jadwal .table-2{
+		width: 100%;
+		margin-left: 0;
+		display: block;
+		position: static;
+	}
+	/*akhir jadwal*/
+	/*aktivitas*/
+	.container-activity{
+		margin-top: 50px;
+	}
+	.title-activity::after{
+		width: 100%;
+	}
+	.content-activity{
+		margin-top: 20px; 
+	}
+	.content-activity h5{
+		font-size: 18px;
+	}
+	/*akhir aktivitas*/
+	/*kontak*/
+	.container-contact{
+		margin-top: 50px;
+	}
+	.title-contact::after{
+		width: 90%;
+	}
+	.content-contact{
+		margin-top: 20px;
+	}
+	/*akhir kontak*/
+	/*up*/
+	.content-up{
+		width: 10%;
+		line-height: 35px;
+		height: 35px;
+	}
+	/*akhir up*/
+}
+
+@media (min-width: 461px) and (max-width: 991px) { 
+
+	.container{
+		margin: auto !important;
+	}
+	/*topbar*/
+	.container-topbar ul{
+		display: none;
+	}
+	/*akhir tobar*/
+	/*profil*/
+	.container-profil {
+		margin-top: 50px;
+		text-align: center;
+	}
+	.content-profil h1{
+		font-size: 45px;
+	}
+	.container-profil .col-5{
+		display: none;
+	}
+	.content-profil h2.display-2{
+		font-size: 50px;
+		line-height: 50px !important;
+	}
+	.content-vektor-1{
+		display: none;
+	}
+	/*akhir Profil*/
+	/*pendidikan*/
+	.container-pendidikan{
+		margin-top: 50px;
+	}
+	.title-pendidikan::after{
+		width: 90%;
+	}
+	.content-pendidikan{
+		margin-top: 20px;
+	}
+	.pendidikan{
+		text-align: center;
+	}
+	.content-vektor-2{
+		display: none;
+	}
+	/*akhir pendidikan*/
+	/*jadwal*/
+	.container-schedule{
+		margin-top: 50px;
+	}
+	.container-schedule .col-4{
+		display: none;
 	}
 	.title-schedule::after{
 		width: 90%;
