@@ -14,10 +14,11 @@
 		text-align: center;
 	}
 	.content-profil h1{
-		font-size: 50px;
+		font-size: 45px;
 	}
 	.content-profil h2.display-2{
-		font-size: 60px;
+		font-size: 50px;
+		line-height: 50px !important;
 	}
 	.content-vektor-1{
 		display: none;
@@ -45,7 +46,7 @@
 		margin-top: 50px;
 	}
 	.title-schedule::after{
-		width: 60%;
+		width: 90%;
 	}
 	.content-vektor-3{
 		display: none;
@@ -71,10 +72,13 @@
 		margin-top: 50px;
 	}
 	.title-activity::after{
-		width: 80%;
+		width: 100%;
 	}
 	.content-activity{
 		margin-top: 20px; 
+	}
+	.content-activity h5{
+		font-size: 18px;
 	}
 	/*akhir aktivitas*/
 	/*kontak*/
@@ -82,7 +86,7 @@
 		margin-top: 50px;
 	}
 	.title-contact::after{
-		width: 60%;
+		width: 90%;
 	}
 	.content-contact{
 		margin-top: 20px;
