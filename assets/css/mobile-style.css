@@ -13,8 +13,11 @@
 		margin-top: 50px;
 		text-align: center;
 	}
+	.content-profil h1{
+		font-size: 50px;
+	}
 	.content-profil h2.display-2{
-		font-size: 70px;
+		font-size: 60px;
 	}
 	.content-vektor-1{
 		display: none;
